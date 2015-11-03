@@ -140,17 +140,19 @@ $(function() {
     };
 
     var makeAdditionalProbrem = function(qlevel) {
-	var maxAnswer;
+	var maxAnswer, minAnswer;
 	var a, b, answer;
 	switch(qlevel) {
 	case 1:
+	    minAnswer = 1;
 	    maxAnswer = 9;
 	    break;
 	case 2:
+	    minAnswer = 10;
 	    maxAnswer = 19;
 	    break;
 	}
-	while(!answer || answer > maxAnswer) {
+	while(!answer || answer < minAnswer || answer > maxAnswer) {
 	    a = make_random(1, 9);
 	    b = make_random(1, 9);
 	    answer = a + b;
