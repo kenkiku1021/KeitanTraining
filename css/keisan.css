@@ -1,0 +1,56 @@
+body {
+  padding-top: 70px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    padding: 10px 0 0 0;
+    height: 40px;
+    text-align: center;
+    font-size: small;
+    background-color: #ddd;
+    width: 100%;
+}
+
+.menu .row {
+    margin-bottom: 30px;
+}
+
+.menu-btn {
+    font-size: 36px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.question {
+    height: 180px;
+}
+
+.question-panel {
+    height: 100%;
+}
+
+.question-panel .panel-body {
+    font-size: 100px;
+    text-align: center;
+}
+
+.cards {
+    margin-top: 1em;
+}
+
+.card-btn {
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.correct-answer-alert {
+    font-size: 100px;
+    text-align: center;
+}
+
+.finish-alert {
+    font-size: 50px;
+}
